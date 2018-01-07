@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #000;
     font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 40px;    
 }
@@ -40,9 +41,8 @@ body {
 
 .wrapper {
     display:grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 50px 50px;
-    background-color: #000;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 50px);
     align-items: center;
     text-align: center;
 }
