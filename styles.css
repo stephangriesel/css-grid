@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+* {
+    margin:0;
+}
+
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 40px;    
+}
+
+/* Blocks Background Colors */
+
+.one {
+    background-color: #981;
+}
+
+.two {
+    background-color: #989;
+}
+
+.three {
+    background-color: #819;
+}
+
+.four {
+    background-color: #676;
+}
+
+.five {
+    background-color: #579;
+}
+
+.six {
+    background-color: #559;
+}
+
+
+/* Grid Start */
+
+.wrapper {
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    background-color: #000;
+    align-items: center;
+    text-align: center;
+}
